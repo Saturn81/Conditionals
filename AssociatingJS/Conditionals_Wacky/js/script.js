@@ -18,7 +18,17 @@ var amountFirstWave= firstWave *10000;
 if (amountFirstWave > 30000){
     var battle1= amountFirstWave-30000; alert("They enemy has attacked your " + firstWave + " legion(s). They killed 30,000 of your men. But you reached the city wall!");
 }else{
-    var battle1= amountFirstWave-10000; ("The enemy has attacked your " + firstWave + " legions(s). Destroying all your men. You did not reach the city wall.");
+    var battle1= amountFirstWave-10000; alert("The enemy has attacked your " + firstWave + " legions(s). Destroying all your men. You did not reach the city wall.");
+}
+
+
+var dragonDefense= prompt("The first wave of attack is over. The enemy seeing an opportunity and sends out their own 2 dragons to your remaining army. \nHow many of your 2 dragons do you send out to battle their dragons? (1-2) ")
+
+if (dragonDefense == 2){
+    alert("The dragon battle was epic, all your dragons you sent out died in combat,as well as the enemy's dragons. You have no dragons left in your army.");
+
+}else{
+    alert("The dragon battle was epic, all your dragons you sent out died in combat, leaving you with the 1 dragon left to attack the enemy with.")
 }
 
 
@@ -26,19 +36,8 @@ if (amountFirstWave > 30000){
 
 
 
-
-
-
-
-
-//console.log(amountFirstWave);
+console.log(dragonDefense);
 
 console.log("After the first wave of your attack, you have " +battle1+ " troops left in your legions sent out.");          //this is used to test expressions in the console.
 
 
-
-
-
-////alert("They enemy has attacked your " + firstWave + " legion(s). They killed 30,000 of your men. But you reached the city wall!");
-
-///alert("The enemy has attacked your " + firstWave + " legions(s). Destroying all your men. You did not reach the city wall.");
