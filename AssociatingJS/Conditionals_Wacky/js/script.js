@@ -7,7 +7,7 @@
 alert("You are taking back your 9 kingdoms. This battle is with swords, and dragons, and is fantasy and very copyrighted by other people. So names have been changed. \n\nYou command the troops and decide how many soldiers fight at a given time.");
 
 
-alert("You approach the major city in Easterous. Your going to attack it. you have at your command: \n5 legions (each legion is 10,000 men)\n2 dragons, (powerful monsters)\n2 squads of archers  (each squad is 2,000 men)");
+alert("You approach the major city in Easterous. Your going to attack it. you have at your command: \n5 legions (each legion is 10,000 men)\n2 dragons, (powerful monsters)");
 
 var firstWave= prompt("FIRST WAVE OF ATTACK: \nHow many legions do you send out against the city's defence? (1-5)");
 
@@ -38,7 +38,7 @@ if (dragonDefense == 2){
 if  (dragonDefense==1 && battle1 >= 10000){
     console.log("Since your army survived the first attack wave and you have a dragon remaining, You are strong enough to storm the city gates. VICTORY IS YOURS");
 }else{
-    console.log("Your first attack was too weak, and you have no dragons, the enemy can overpower your attack, YOU HAVE LOST.");
+    console.log("Your first attack was too weak, and even with 1 or 0 dragons, the enemy can overpower your attack, YOU HAVE LOST.");
 }
 
 
