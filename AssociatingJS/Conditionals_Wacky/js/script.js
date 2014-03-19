@@ -16,10 +16,11 @@ var amountFirstWave= firstWave *10000;
 
 
 if (amountFirstWave > 30000){
-    console.log("They enemy has attacked your " + firstWave + " legion(s). They killed 30,000 of your men. But you reached the city wall!");
+    alert("They enemy has attacked your " + firstWave + " legion(s). They killed 30,000 of your men. But you reached the city wall!");
 }else{
-    console.log("The enemy has attacked your " + firstWave + " legions(s). Destroying all your men. You did not reach the city wall.");
+    alert("The enemy has attacked your " + firstWave + " legions(s). Destroying all your men. You did not reach the city wall.");
 }
+
 
 
 
