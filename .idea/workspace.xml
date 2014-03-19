@@ -2,16 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b87412f1-c199-4c7d-add5-b79b9b66b8cc" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AssociatingJS/.idea/.name" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AssociatingJS/.idea/AssociatingJS.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AssociatingJS/.idea/encodings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AssociatingJS/.idea/misc.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AssociatingJS/.idea/modules.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AssociatingJS/.idea/scopes/scope_settings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AssociatingJS/.idea/vcs.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AssociatingJS/.idea/workspace.xml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AssociatingJS/Conditionals_Industry/js/script.js" afterPath="$PROJECT_DIR$/AssociatingJS/Conditionals_Industry/js/script.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AssociatingJS/Conditionals_Personal/js/script.js" afterPath="$PROJECT_DIR$/AssociatingJS/Conditionals_Personal/js/script.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AssociatingJS/Conditionals_Wacky/js/script.js" afterPath="$PROJECT_DIR$/AssociatingJS/Conditionals_Wacky/js/script.js" />
     </list>
     <ignored path="Conditionals.iws" />
@@ -35,19 +25,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="script.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="script.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/AssociatingJS/Conditionals_Wacky/js/script.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="0" selection-start="69" selection-end="69" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="180">
+            <state line="23" column="81" selection-start="732" selection-end="732" vertical-scroll-proportion="0.41919807" vertical-offset="0" max-vertical-offset="823">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/AssociatingJS/Conditionals_Wacky/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="812">
+            <state line="3" column="19" selection-start="49" selection-end="49" vertical-scroll-proportion="-1.875" vertical-offset="0" max-vertical-offset="270">
               <folding />
             </state>
           </provider>
@@ -73,7 +63,7 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="69" />
+    <option name="x" value="-84" />
     <option name="y" value="22" />
     <option name="width" value="1751" />
     <option name="height" value="956" />
@@ -85,7 +75,7 @@
     <OptionsSetting value="true" id="Update" />
     <OptionsSetting value="true" id="Status" />
     <OptionsSetting value="true" id="Edit" />
-    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="1" id="Add" />
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectReloadState">
@@ -241,6 +231,42 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
   </component>
   <component name="RunManager">
+    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
+      <option name="VMOptions" />
+      <option name="arguments" />
+      <option name="filePath" />
+      <option name="scope" value="ALL" />
+      <option name="testName" />
+      <method />
+    </configuration>
+    <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
+      <option name="VMOptions" />
+      <option name="arguments" />
+      <option name="filePath" />
+      <option name="name" value="Dart" />
+      <option name="saveOutputToFile" value="false" />
+      <option name="showConsoleOnStdErr" value="false" />
+      <option name="showConsoleOnStdOut" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JSTestDriver:ConfigurationType" factoryName="JsTestDriver">
+      <setting name="configLocationType" value="CONFIG_FILE" />
+      <setting name="settingsFile" value="" />
+      <setting name="serverType" value="INTERNAL" />
+      <setting name="preferredDebugBrowser" value="CHROME" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" singleton="true" config-file="">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" working-dir="">
+      <browser start="false" url="" with-js-debugger="false" />
+      <method />
+    </configuration>
     <list size="0" />
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
@@ -253,7 +279,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="69" y="22" width="1751" height="956" extended-state="0" />
+    <frame x="-84" y="22" width="1751" height="956" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -320,16 +346,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AssociatingJS/Conditionals_Wacky/js/script.js">
+    <entry file="file://$PROJECT_DIR$/AssociatingJS/Conditionals_Wacky/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="0" selection-start="69" selection-end="69" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="180">
+        <state line="3" column="19" selection-start="49" selection-end="49" vertical-scroll-proportion="-1.875" vertical-offset="0" max-vertical-offset="270">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AssociatingJS/Conditionals_Wacky/index.html">
+    <entry file="file://$PROJECT_DIR$/AssociatingJS/Conditionals_Wacky/js/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="836">
+        <state line="23" column="81" selection-start="732" selection-end="732" vertical-scroll-proportion="0.41919807" vertical-offset="0" max-vertical-offset="823">
           <folding />
         </state>
       </provider>
