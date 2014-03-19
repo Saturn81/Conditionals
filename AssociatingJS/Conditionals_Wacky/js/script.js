@@ -1,6 +1,7 @@
 /**
- * Created by Suika on 3/11/14.
+ * Created by Jeremy Suika on 3/19/14.
+ * Conditionals_Wacky
  */
 
 
-alert("Test2");
+alert("Test of Wacky Wacky Conditionals");

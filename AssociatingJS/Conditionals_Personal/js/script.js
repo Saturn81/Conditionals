@@ -1,6 +1,7 @@
 /**
- * Created by Suika on 3/11/14.
+ * Created by Jeremy Suika on March 19 2014
+ * Conditionals_Personal
  */
 
 
-alert("Test2");
+alert("This is a test of the Conditional section for Personal");
