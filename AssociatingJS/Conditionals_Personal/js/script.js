@@ -5,68 +5,69 @@
  */
 
 
-alert("I want to build a stone walled fire pit in the backyard. I need to see if I have enough money for the tools and the material to make the fire pit.");
+alert("I want to build a stone walled fire pit in the backyard. I need to see if I have enough money for the tools and then material to make the fire pit.");
+                 //this alert describes the formula and what conditions I am trying to express.
+
+var limit =300    //This will be the total amount of money allowed to build the fire pit.
+
+var  mallet	= prompt("Do you have a mallet?","yes or no" );             //prompt to see if I own the proper tools. a yes or no answer is required.
+var  tampler= prompt("Do you have a hand-tampler?","yes or no");         //prompt to see if I own the proper tools. a yes or no answer is required.
+var shovel = prompt("Do you have a shovel?","yes or no");                //prompt to see if I own the proper tools. a yes or no answer is required.
 
 
-var limit =300
-
-var  mallet	= prompt("Do you have a mallet?","yes or no" );
-var  tampler= prompt("Do you have a hand-tampler?","yes or no");
-var shovel = prompt("Do you have a shovel?","yes or no");
-
-
-if (mallet=="no") {
+if (mallet=="no") {                        //If the statement is TRUE and you input NO in the PROMPT above, then $16 is subtracted from $300. In this example VAR LIMIT is either 300 being false, or 284 being true.
    var limit= 300- 16;
 }else{
-    var limit=300;
+    var limit=300;             //If you don't have the tool, a number gets subtracted from the total labeled either limit or limit2.
 }
 
-if (tampler=="no"){
+if (tampler=="no"){             //This is the same as the above IF/ELSE statment but now this YES OR NO prompt gets subtracted from a new limit or limit2 total.
     var limit2= limit-65;
 }else{
     var limit2=limit;
 }
 
-if (shovel=="no"){
+if (shovel=="no"){                  //If you don't have the tool, a number gets subtracted from the total labeled either limit or limit2.
     var limit=limit2-30;
 }else{
-    var limit=limit2;
+    var limit=limit2;               //This is the same as the above IF/ELSE statment but now this YES OR NO prompt gets subtracted from a new limit or limit2 total.
+
 }
 
-alert("With inventorying the essential tools needed, your have now $"+limit+" for the remaining building materials, like stone bricks and metal fire pit frame.");
+                //The above IF/ELSE are to see exactly how much money you have if you have to buy these tools. All the numbers are subtracted as you go to the prompts.
 
-limit2=limit-125
+alert("With inventorying the essential tools needed, your have now $"+limit+" for the remaining building materials, like stone bricks and metal fire pit frame.");   //tells you how much you have spent on the tools, if you DID spend money.
 
-alert("The metal fire pit frame is $125.00, so that amount will subtracted from your remaining money to leave you with $"+(limit2)+".00 left in your budget for stone.");
+limit2=limit-125  ///the 125 represents the cost of the metal fire pit frame. its subtracted from whats left of your budget.
 
-
-var stoneFancy=128;
-
-var stoneRegular=80;
+alert("The metal fire pit frame is $125.00, so that amount will subtracted from your remaining money to leave you with $"+(limit2)+".00 left in your budget for stone.");  //alert to describe that a metal fire pit frame is subtracted from your total.
 
 
-var chose =prompt("You need 64 bricks for the fire pit. Fancy bricks are $2.00 a brick. Regular brick are 1.25 a brick. Chose fancy or regular:","fancy or regular");
+var stoneFancy=128;   //variable to see the total cost of fancy stone bricks.
+
+var stoneRegular=80; //variable to see the total cost of regular stone bricks.
 
 
-if (chose=="fancy"){
+var chose =prompt("You need 64 bricks for the fire pit. Fancy bricks are $2.00 a brick. Regular brick are 1.25 a brick. Chose fancy or regular:","fancy or regular");  //Prompt and varriable to see if you chose the exprensive or the regular bricks.
+
+
+if (chose=="fancy"){                                    //if statement is TRUE, then you pick fancy bricks and $128 gets subtracted from your remaining budget.
     var limit= limit2- stoneFancy;
 }else{
-    var limit=limit2- stoneRegular;
+    var limit=limit2- stoneRegular;                     //if statement is FALSE, then regular stone which is $80 gets subtracted from your total.
 }
-
 
 if (limit <= 300){
-    console.log("You are below your budget, you can start to build the fire pit. Good Luck!");
+    console.log("You are below your budget, you can start to build the fire pit. Good Luck!");                     //If you spent less then or equal to 300 then the console.log prompt comes up
 }else{
-    console.log("You don't have enough money in the budget, borrow some tools or get cheaper stones.");
+    console.log("You don't have enough money in the budget, borrow some tools or get cheaper stones.");             //If you spent over 300 then the console displays the message that you went over your limit.
 }
 
 
 
 
 
-   // console.log(mallet);
-console.log(limit);
+
 
 
 
