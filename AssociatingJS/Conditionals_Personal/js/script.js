@@ -48,22 +48,20 @@ var stoneFancy=128;   //variable to see the total cost of fancy stone bricks.
 var stoneRegular=80; //variable to see the total cost of regular stone bricks.
 
 
-var chose =prompt("You need 64 bricks for the fire pit. Fancy bricks are $2.00 a brick. Regular brick are 1.25 a brick. Chose fancy or regular:","fancy or regular");  //Prompt and varriable to see if you chose the exprensive or the regular bricks.
+var stonePick =prompt("You need 64 bricks for the fire pit. Fancy bricks are $2.00 a brick. Regular brick are 1.25 a brick. Chose fancy or regular:","fancy or regular");  //Prompt and varriable to see if you chose the exprensive or the regular bricks.
 
 
-if (chose=="fancy"){                                    //if statement is TRUE, then you pick fancy bricks and $128 gets subtracted from your remaining budget.
-    var limit= limit2- stoneFancy;
+if (stonePick=="fancy"){                                    //if statement is TRUE, then you pick fancy bricks and $128 gets subtracted from your remaining budget.
+    var limit= limit2 - stoneFancy;
 }else{
-    var limit=limit2- stoneRegular;                     //if statement is FALSE, then regular stone which is $80 gets subtracted from your total.
+    var limit= limit2 - stoneRegular;                     //if statement is FALSE, then regular stone which is $80 gets subtracted from your total.
 }
 
-if (limit <= 300){
-    console.log("You are below your budget, you can start to build the fire pit. Good Luck!");                     //If you spent less then or equal to 300 then the console.log prompt comes up
+if (limit > 0){
+    console.log("You are below your budget, you can start to build the fire pit. Good Luck!");                     //If you spent over 0 (0 is out of money) then the console.log prompt comes up you are at your budget
 }else{
-    console.log("You don't have enough money in the budget, borrow some tools or get cheaper stones.");             //If you spent over 300 then the console displays the message that you went over your limit.
+    console.log("You don't have enough money in the budget, borrow some tools or get cheaper stones.");             //If you spent under o (like -20, or an negative number, t hen the console displays the message that you went over your limit.
 }
-
-
 
 
 
