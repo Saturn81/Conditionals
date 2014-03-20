@@ -40,17 +40,33 @@ limit2=limit-125
 alert("The metal fire pit frame is $125.00, so that amount will subtracted from your remaining money to leave you with $"+(limit2)+".00 left in your budget for stone.");
 
 
-var stoneFancy=128
+var stoneFancy=128;
 
-var stoneRegular= 85
+var stoneRegular=80;
 
+
+var chose =prompt("You need 64 bricks for the fire pit. Fancy bricks are $2.00 a brick. Regular brick are 1.25 a brick. Chose fancy or regular:","fancy or regular");
+
+
+if (chose=="fancy"){
+    var limit= limit2- stoneFancy;
+}else{
+    var limit=limit2- stoneRegular;
+}
+
+
+if (limit>300){
+    console.log("You are below your budget, you can start to build the fire pit. Good Luck!");
+}else{
+    console.log("You don't have enough money in the budget, borrow some tools or get cheaper stones.");
+}
 
 
 
 
 
    // console.log(mallet);
-console.log(limit2);
+console.log(limit);
 
 
 
