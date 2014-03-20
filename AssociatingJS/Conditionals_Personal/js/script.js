@@ -55,7 +55,7 @@ if (chose=="fancy"){
 }
 
 
-if (limit>300){
+if (limit <= 300){
     console.log("You are below your budget, you can start to build the fire pit. Good Luck!");
 }else{
     console.log("You don't have enough money in the budget, borrow some tools or get cheaper stones.");
@@ -70,6 +70,3 @@ console.log(limit);
 
 
 
-//console.log("You are below your budget, you can start to build the fire pit. Good Luck!");
-
-//console.log("You don't have enough money in the budget, borrow some tools or get cheaper stones.");
