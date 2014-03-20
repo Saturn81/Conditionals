@@ -22,31 +22,44 @@ if (amountFirstWave > 30000){
 }
 
 
-var dragonDefense= prompt("The first wave of attack is over. The enemy seeing an opportunity and sends out their own 2 dragons to your remaining army. \nHow many of your 2 dragons do you send out to battle their dragons. (1 or 2)");
 
-if (dragonDefense == 2){
-    alert("The dragon battle was epic, all your dragons you sent out died in combat,as well as the enemy's dragons. You have no dragons left in your army.");
 
+
+var yourDragons = 3;
+var dragonDefense= prompt("The first wave of attack is over. The enemy seeing an opportunity and sends out their own 2 dragons against you. \nHow many of your 3 dragons do you send out to battle their dragons? (1-3)");
+
+
+
+
+var finalDragons = yourDragons-dragonDefense;
+
+
+
+if (dragonDefense == 3){
+    alert("You send out all your dragons, that was a brash and reckless move. All 3 of your dragons were destroyed.");
+
+}
+if (dragonDefense== 2){
+    alert("Your 2 dragons fought hard and destroyed the enemy's dragons, but they were destroyed as well.")
+}
+if (dragonDefense==1){
+    alert("Your single dragon fought and killed the enemy's two dragons, it was a powerfull fight, but your brave dragon did not make it")
+}
+
+
+
+if  (finalDragons >= 1 && battle1 >= 10000){
+    console.log("Since you still have a large force of legions and have "+finalDragons+ " dragon(s) remaining, you are strong enough to storm the city gates. VICTORY IS YOURS");
 }else{
-    alert("The dragon battle was epic, all your dragons you sent out died in combat, leaving you with the 1 dragon left to attack the enemy with.")
-
+    console.log("You lack legions or dragons, the enemy can overpower any future attacks, YOU HAVE LOST.");
 }
 
 
 
 
-if  (dragonDefense==1 && battle1 >= 10000){
-    console.log("Since your army survived the first attack wave and you have a dragon remaining, You are strong enough to storm the city gates. VICTORY IS YOURS");
-}else{
-    console.log("Your first attack was too weak, and even with 1 or 0 dragons, the enemy can overpower your attack, YOU HAVE LOST.");
-}
 
 
-
-
-
-
-alert("The battle is over, dragons and man fought hard, the results in the Console. ");
+alert("The final battle is over, dragons and man fought hard, the results in the Console. ");
 
 
 
