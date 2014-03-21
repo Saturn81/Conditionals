@@ -51,17 +51,21 @@ var stoneRegular=80; //variable to see the total cost of regular stone bricks.
 var stonePick =prompt("You need 64 bricks for the fire pit. Fancy bricks are $2.00 a brick. Regular brick are 1.25 a brick. Chose fancy or regular:","fancy or regular");  //Prompt and varriable to see if you chose the exprensive or the regular bricks.
 
 
+
+
+
+
 if (stonePick=="fancy"){                                    //if statement is TRUE, then you pick fancy bricks and $128 gets subtracted from your remaining budget.
     var limit= limit2 - stoneFancy;
 }else{
     var limit= limit2 - stoneRegular;                     //if statement is FALSE, then regular stone which is $80 gets subtracted from your total.
 }
 
-if (limit > 0){
-    console.log("You are below your budget, you can start to build the fire pit. Good Luck!");                     //If you spent over 0 (0 is out of money) then the console.log prompt comes up you are at your budget
-}else{
-    console.log("You don't have enough money in the budget, borrow some tools or get cheaper stones.");             //If you spent under o (like -20, or an negative number, t hen the console displays the message that you went over your limit.
-}
+(limit > 0) ? console.log("You are below your budget, you can start to build the fire pit. Good Luck!") : console.log("You don't have enough money in the budget, borrow some tools or get cheaper stones.");
+
+//Ternary Condition (required)
+//We have been subtracting amounts from our original 300 budget. So if I did not have a shovel  it would be 300-30 leaving me 270. As I subtract, the numbers decrease from 300.
+// .....If that total number gets in the Negatives like -20, then we went over the budget and the condition is FALSE.
 
 
 
