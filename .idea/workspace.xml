@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="b87412f1-c199-4c7d-add5-b79b9b66b8cc" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AssociatingJS/Conditionals_Personal/js/script.js" afterPath="$PROJECT_DIR$/AssociatingJS/Conditionals_Personal/js/script.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AssociatingJS/Conditionals_Wacky/js/script.js" afterPath="$PROJECT_DIR$/AssociatingJS/Conditionals_Wacky/js/script.js" />
     </list>
     <ignored path="Conditionals.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -25,19 +26,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="script.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/AssociatingJS/Conditionals_Personal/js/script.js">
+      <file leaf-file-name="script.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/AssociatingJS/Conditionals_Wacky/js/script.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="60" column="66" selection-start="3437" selection-end="3437" vertical-scroll-proportion="0.0" vertical-offset="423" max-vertical-offset="1335">
+            <state line="53" column="22" selection-start="4245" selection-end="4245" vertical-scroll-proportion="0.580292" vertical-offset="318" max-vertical-offset="1140">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/AssociatingJS/Conditionals_Personal/index.html">
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/AssociatingJS/Conditionals_Wacky/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="7" selection-start="129" selection-end="129" vertical-scroll-proportion="0.2219482" vertical-offset="0" max-vertical-offset="811">
+            <state line="10" column="0" selection-start="113" selection-end="113" vertical-scroll-proportion="-6.25" vertical-offset="0" max-vertical-offset="270">
               <folding />
             </state>
           </provider>
@@ -56,14 +57,14 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/AssociatingJS/Conditionals_Wacky/js/script.js" />
         <option value="$PROJECT_DIR$/AssociatingJS/Conditionals_Industry/js/script.js" />
         <option value="$PROJECT_DIR$/AssociatingJS/Conditionals_Personal/js/script.js" />
+        <option value="$PROJECT_DIR$/AssociatingJS/Conditionals_Wacky/js/script.js" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-1" />
+    <option name="x" value="134" />
     <option name="y" value="22" />
     <option name="width" value="1755" />
     <option name="height" value="953" />
@@ -253,7 +254,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1" y="22" width="1755" height="953" extended-state="0" />
+    <frame x="134" y="22" width="1755" height="953" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -330,11 +331,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AssociatingJS/Conditionals_Wacky/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="19" selection-start="49" selection-end="49" vertical-scroll-proportion="0.05541872" vertical-offset="0" max-vertical-offset="812" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/AssociatingJS/Conditionals_Industry/js/script.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="1" column="43" selection-start="47" selection-end="47" vertical-scroll-proportion="0.018292682" vertical-offset="0" max-vertical-offset="820" />
@@ -345,23 +341,30 @@
         <state line="12" column="7" selection-start="129" selection-end="129" vertical-scroll-proportion="0.22249691" vertical-offset="0" max-vertical-offset="809" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AssociatingJS/Conditionals_Wacky/js/script.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="73" column="0" selection-start="4870" selection-end="4870" vertical-scroll-proportion="0.890511" vertical-offset="363" max-vertical-offset="1185">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/AssociatingJS/Conditionals_Personal/js/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="60" column="66" selection-start="3437" selection-end="3437" vertical-scroll-proportion="0.0" vertical-offset="423" max-vertical-offset="1335">
+        <state line="70" column="0" selection-start="4358" selection-end="4358" vertical-scroll-proportion="0.72627735" vertical-offset="453" max-vertical-offset="1275">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/AssociatingJS/Conditionals_Personal/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="7" selection-start="129" selection-end="129" vertical-scroll-proportion="0.2219482" vertical-offset="0" max-vertical-offset="811">
+        <state line="3" column="19" selection-start="49" selection-end="49" vertical-scroll-proportion="0.05548705" vertical-offset="0" max-vertical-offset="811">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AssociatingJS/Conditionals_Wacky/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="0" selection-start="113" selection-end="113" vertical-scroll-proportion="-6.25" vertical-offset="0" max-vertical-offset="270">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AssociatingJS/Conditionals_Wacky/js/script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="53" column="22" selection-start="4245" selection-end="4245" vertical-scroll-proportion="0.580292" vertical-offset="318" max-vertical-offset="1140">
           <folding />
         </state>
       </provider>

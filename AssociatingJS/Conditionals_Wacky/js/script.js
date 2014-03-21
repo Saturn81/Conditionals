@@ -50,14 +50,11 @@ if (dragonDefense==1){                //Equality operators used, to describe wha
 
 
 
+(finalDragons >= 1 && battle1 >= 10000) ? console.log("Since you still have a large force of legions and have "+finalDragons+ " dragon(s) remaining, you are strong enough to storm the city gates. VICTORY IS YOURS") : console.log("You lack legions or dragons, the enemy can overpower any future attacks, YOU HAVE LOST.");
+// ternary conditional
+//If you still have any dragons left AND you used either 4-5 legions in the FIRST WAVE PROMPT (or over 10,000 men left in total) your statement is TRUE.  If any part of the two are FALSE, the whole statement is FALSE and the "ELSE" comes into factor.
+//If you don't have at least one dragon, and your legion numbers are below 10,000 then the statement is false and the ELSE console log statement comes up. It also explains the final outcome of the war.
 
-if  (finalDragons >= 1 && battle1 >= 10000){                //If you still have any dragons left AND you used either 4-5 legions in the FIRST WAVE PROMPT (or over 10,000 men left in total) your statement is TRUE.  If any part of the two are FALSE, the whole statement is FALSE and the "ELSE" comes into factor.
-    console.log("Since you still have a large force of legions and have "+finalDragons+ " dragon(s) remaining, you are strong enough to storm the city gates. VICTORY IS YOURS");
-}else{
-    console.log("You lack legions or dragons, the enemy can overpower any future attacks, YOU HAVE LOST.");
-}
-
-//If you don't have at least one dragon, and your legion numbers are below 10,000then the statment is false and the ELSE console log statment comes up. It also explians the final outcome of the war.
 
 
 alert("The final battle is over, dragons and man fought hard, the results in the Console. ");  //Telling you to go to the Console to see the result.

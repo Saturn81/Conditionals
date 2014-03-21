@@ -58,20 +58,16 @@ if (stonePick=="fancy"){                                    //if statement is TR
     var limit= limit2 - stoneRegular;                     //if statement is FALSE, then regular stone which is $80 gets subtracted from your total.
 }
 
-var friend =(prompt("Do you have a neighbor that has all the tools you need? (shovel, hand tampler, mallet)","yes or no"));
+var friend =(prompt("Do you have a neighbor that has all the tools you need? (shovel, hand tampler, mallet)","yes or no"));  //this prompt is part of the ELSE IF, if I have a neighbor with tools it does not matter if I lack them, and I can't go over the budget.
 
 
 if (limit > 0){
     console.log("You are below your budget, you can start to build the fire pit. Good Luck!");                     //If you spent over 0 (0 is out of money) then the console.log prompt comes up you are at your budget
 }else if(friend=="yes"){
-    console.log("You are below your budget,because of a neighbors help, you can start to build the fire pit. Good Luck!");
+    console.log("You are below your budget,because of a neighbors help, you can start to build the fire pit. Good Luck!");   //If I borrowed all the tools, and the above staement is false, then this becomes true.
 }else{
     console.log("You don't have enough money in the budget, borrow some tools or get cheaper stones.");             //If you spent under o (like -20, or an negative number, t hen the console displays the message that you went over your limit.
 }
-
-
-
-
 
 //We have been subtracting amounts from our original 300 budget. So if I did not have a shovel  it would be 300-30 leaving me 270. As I subtract, the numbers decrease from 300.
 // .....If that total number gets in the Negatives like -20, then we went over the budget and the condition is FALSE.
