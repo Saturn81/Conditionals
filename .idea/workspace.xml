@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="b87412f1-c199-4c7d-add5-b79b9b66b8cc" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AssociatingJS/Conditionals_Industry/js/script.js" afterPath="$PROJECT_DIR$/AssociatingJS/Conditionals_Industry/js/script.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Conditionals.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -29,7 +28,7 @@
       <file leaf-file-name="script.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/AssociatingJS/Conditionals_Industry/js/script.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="0" selection-start="864" selection-end="864" vertical-scroll-proportion="0.4207317" vertical-offset="0" max-vertical-offset="820">
+            <state line="30" column="0" selection-start="1036" selection-end="1036" vertical-scroll-proportion="0.5487805" vertical-offset="0" max-vertical-offset="820">
               <folding />
             </state>
           </provider>
@@ -269,7 +268,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/AssociatingJS/Conditionals_Personal/js/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="0" selection-start="2219" selection-end="2219" vertical-scroll-proportion="0.0" vertical-offset="332" max-vertical-offset="1155" />
+        <state line="39" column="0" selection-start="2219" selection-end="2219" vertical-scroll-proportion="0.0" vertical-offset="332" max-vertical-offset="1155">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/AssociatingJS/Conditionals_Personal/index.html">
@@ -294,7 +295,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/AssociatingJS/Conditionals_Personal/js/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="66" column="0" selection-start="3857" selection-end="3857" vertical-scroll-proportion="0.799514" vertical-offset="332" max-vertical-offset="1155" />
+        <state line="66" column="0" selection-start="3857" selection-end="3857" vertical-scroll-proportion="0.799514" vertical-offset="332" max-vertical-offset="1155">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/AssociatingJS/Conditionals_Industry/index.html">
@@ -306,7 +309,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/AssociatingJS/Conditionals_Industry/js/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="0" selection-start="864" selection-end="864" vertical-scroll-proportion="0.4207317" vertical-offset="0" max-vertical-offset="820">
+        <state line="30" column="0" selection-start="1036" selection-end="1036" vertical-scroll-proportion="0.5487805" vertical-offset="0" max-vertical-offset="820">
           <folding />
         </state>
       </provider>

@@ -19,13 +19,12 @@ var day3= prompt("DAY THREE \nHow many lines of code did you do today?");
 
 var helpTotal= help *200;
 
-var totalHours= day1+day2+day3+helpTotal;
+var totalCodes= Number(day1)+Number(day2)+Number(day3)+Number(helpTotal);
 
 
-if (totalHours > 1000){
+if (totalCodes >= 1000){
     console.log("You coded over 1000 lines you completed your part of the project.")
 }
 
-console.log(helptoal);
+console.log(totalCodes);
 
-alert("helpTotal");
