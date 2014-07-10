@@ -23,7 +23,7 @@ var totalCodes= Number(day1)+Number(day2)+Number(day3)+Number(helpTotal);       
 
 
 if (totalCodes >= 1000){                                                                    //If your total is 1000 or greater then the CONSOLE statement is TRUE, and will be displayed in the console.
-    console.log("You coded the 1000 lines. You've completed your part of the project.")     //The message that you have done your job and coded the 1000 lines.
+    console.log("You coded the 1000 lines. You've completed your part of the project.");     //The message that you have done your job and coded the 1000 lines.
 }
 
 
